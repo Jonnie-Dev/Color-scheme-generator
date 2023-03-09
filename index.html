@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="search">
+        <input class="color-picker" id="color" type="color" />
+        <select id="options">
+          <option></option>
+          <option>Monochrome</option>
+          <option>Monochrome-dark</option>
+          <option>Monochrome-light</option>
+          <option>Analogic</option>
+          <option>Complement</option>
+          <option>Analogic-complement</option>
+          <option>Triad</option>
+          <option>Quad</option>
+        </select>
+        <button id="button">Get color scheme</button>
+      </div>
+      <div class="bigger-container">
+        <div class="container">
+          <div id="div"></div>
+          <p id="div-p">#000000</p>
+        </div>
+        <div class="container">
+          <div id="div"></div>
+          <p id="div-p">#151515</p>
+        </div>
+        <div class="container">
+          <div id="div"></div>
+          <p id="div-p">#2B2A2A</p>
+        </div>
+        <div class="container">
+          <div id="div"></div>
+          <p id="div-p">#413E3E</p>
+        </div>
+        <div class="container">
+          <div id="div"></div>
+          <p id="div-p">#585252</p>
+        </div>
+        <div class="container">
+          <div id="div"></div>
+          <p id="div-p">#6F6666</p>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
